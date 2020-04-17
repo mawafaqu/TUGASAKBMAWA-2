@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Aplikasi 2 AKB</string>
+    <string name="hintuser"> Username </string>
+    <string name="hintpas"> Password </string>
+    <string name="hintreg"> Register </string>
+    <string name="hintreg2"> Register </string>
+    <string name="rb_1"> Male </string>
+    <string name="rb_2"> Female </string>
+    <string-array name="slcblood">Blood Type
+        <item> Blood Type </item>
+        <item> A </item>
+        <item> B </item>
+        <item> AB </item>
+        <item> O </item>
+    </string-array>
+    <string-array name="reshus">Reshus
+        <item> Reshus </item>
+    </string-array>
+    <string name="rb_3"> Personal </string>
+    <string name="rb_4"> Organization </string>
+    <string name="Check"> Agree with Terms and Conditions</string>
+    <string-array name="jb">Blood Type
+        <item> Job</item>
+        <item> Karyawan </item>
+        <item> Wirausaha </item>
+        <item> Pelajar / Mahasiswa </item>
+        <item> Lain-Lain </item>
+    </string-array>
+</resources>

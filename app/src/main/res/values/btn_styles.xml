@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="login" parent="Widget.AppCompat.Button">
+    <item name="android:background">@drawable/biruputih </item>
+    <item name="android:textColor">@color/putih</item>
+    <item name="android:text"> LOGIN </item>
+    <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="loginFB" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/biruputih </item>
+        <item name="android:textColor">@color/putih</item>
+        <item name="android:text"> Connect With Facebook </item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="Register" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/putihbiru </item>
+        <item name="android:textColor">@color/birumuda</item>
+        <item name="android:text"> Register  </item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BrPth" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/biruputih </item>
+        <item name="android:textColor">@color/putih</item>
+        <item name="android:text"> Verify </item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BrPthV" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/biruputih </item>
+        <item name="android:textColor">@color/putih</item>
+        <item name="android:text"> SEND </item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+
+</resources>

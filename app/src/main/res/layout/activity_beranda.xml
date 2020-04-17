@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Beranda">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/ic_header_profile">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_side_menu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_notification" />
+
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pp"
+        android:src="@drawable/mawa"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        app:civ_border_color="@color/putih"
+        app:civ_border_width="3dp"
+        app:civ_border_overlay="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Mawa Faqu Rochman"
+        android:textColor="@color/birumuda"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/golongandar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Blood Type : O"/>
+
+    <TextView
+        android:id="@+id/tampilsatu"
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+        android:layout_below="@+id/golongandar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/Separator" />
+
+    <TextView
+        android:id="@+id/kiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilsatu"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="50"
+        android:textColor="@color/birumuda"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilsatu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="20"
+        android:textColor="@color/birumuda"
+        android:textSize="25sp" />
+
+
+
+    <TextView
+        android:id="@+id/kanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilsatu"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="55dp"
+        android:text="30"
+        android:textColor="@color/birumuda"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/desckiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kiri"
+        android:layout_marginLeft="30dp"
+        android:text="BLOOD GIVE"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/desctengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tengah"
+        android:layout_centerHorizontal="true"
+        android:text="BLOOD RECEIVED"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/desckanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kanan"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="52dp"
+        android:layout_marginTop="0dp"
+        android:text="THANKS"
+        android:textSize="9sp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/desctengah"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/Separator" />
+    <ImageView
+        android:id="@+id/pic_donor"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_search_donor" />
+
+    <TextView
+        android:id="@+id/seach_donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic_donor"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Search Donor"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/desdonor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seach_donor"
+        android:layout_marginLeft="47dp"
+        android:text="Search donor near you"
+        android:textSize="12sp" />
+
+
+    <ImageView
+        android:id="@+id/pic_nb"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="65dp"
+        android:src="@drawable/ic_blood_needed" />
+
+    <TextView
+        android:id="@+id/txt_title_blood_needed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pic_nb"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:text="Blood Needed"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/desc_nb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_title_blood_needed"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="54dp"
+        android:text="4 Users need blood"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/picmes"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/desdonor"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_message" />
+
+    <TextView
+        android:id="@+id/title_mes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picmes"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="10dp"
+        android:text="Message"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/descmes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_mes"
+        android:layout_marginLeft="55dp"
+        android:text="5 New Messages"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/pichistory"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/desc_nb"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/ic_donor_history" />
+
+    <TextView
+        android:id="@+id/titlehis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pichistory"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="61dp"
+        android:text="Donor History"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/deschis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlehis"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:text="5 Gives 2 Rec"/>
+
+</RelativeLayout>
